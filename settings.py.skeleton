@@ -1,4 +1,7 @@
 # Django settings for plugin_repository project.
+from path import path
+
+project_root = path(__file__).parent
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
@@ -92,7 +95,8 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'jsonrpc',
     # Uncomment the next line to enable the admin:
-    # 'django.contrib.admin',
+    'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
-    # 'django.contrib.admindocs',
+    'django.contrib.admindocs',
+    'repository',
 )

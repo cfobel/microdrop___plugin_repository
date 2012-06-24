@@ -10,8 +10,8 @@ from django.contrib import admin
 
 
 admin.autodiscover()
-#admin.site.register(PluginVersion)
-#admin.site.register(Plugin)
+admin.site.register(PluginVersion)
+admin.site.register(Plugin)
 
 urlpatterns = patterns('',
     # Example:
