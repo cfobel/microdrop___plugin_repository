@@ -1,0 +1,7 @@
+from path import path
+
+import settings
+
+
+PLUGIN_DATA_DIR = settings.project_root.joinpath('plugin_data')
+PLUGIN_DATA_URL = '/plugin_data'
