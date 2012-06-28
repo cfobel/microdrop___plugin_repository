@@ -1,0 +1,6 @@
+pg_hba.conf contains an example configuration to allow Django to
+authenticate to with postgresql.  This file should be used a reference
+to update the file in the postgresql config path.  For example, on 
+Ubuntu 11.04, the file lives here:
+
+    /etc/postgresql/8.4/main/pg_hba.conf
